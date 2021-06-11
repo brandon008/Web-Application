@@ -1,0 +1,16 @@
+{{body}}
+<h3> Search for File Names! (.mp3 ect..)</h3>
+<div>
+    <form action="/searchPost" method="GET" id="getPostName" class="input2">
+    <label for="title">Song:</label>
+    <input type="text" id="formSong" name="title"><br><br>
+    <button type="submit" class="button" form="getPostName" value="Submit">Find</button>
+    </form>
+</div>
+
+
+<ul>
+{{#each songResult}}
+    <li><b>Post Name: </b> {{title}}</li>
+{{/each}}
+</ul>

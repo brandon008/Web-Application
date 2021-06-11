@@ -1,0 +1,39 @@
+{
+  "name": "brandon008-final-project",
+  "version": "1.0.0",
+  "description": "Final Project AIT",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "eslint-plugin-mocha": "^8.1.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mock-require": "^3.0.3",
+    "mongoose": "^5.12.3",
+    "mongoose-type-email": "^1.1.2",
+    "mongoose-url-slugs": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-034-spring-2021/brandon008-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-034-spring-2021/brandon008-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-034-spring-2021/brandon008-final-project#readme"
+}

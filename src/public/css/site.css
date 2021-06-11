@@ -1,0 +1,46 @@
+div.a {
+    text-align: center;
+    color: rgb(211, 38, 197);
+    text-transform: uppercase;
+  }
+div.b {
+    /* background-color:  rgb(233, 21, 233); */
+    overflow: hidden;
+    background-image: url('../img/backgroundMS.jpeg');
+    }
+/* https://css-tricks.com/css-basics-styling-links-like-boss/ */
+a {
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 0em .5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    }
+    
+a:hover {
+    background-color: #ce0606;
+    }
+    
+a:active {
+    box-shadow: none;
+    top: 5px;
+    }
+
+.user {
+    text-align: center;
+    background-color:yellow;
+    padding:0.1em 0.2em;
+}
+body {
+    /* background-color: #ff9100; */
+    color: bisque;
+    background-image: url('../img/background.jpeg');
+}
+
+ol {
+    background: #3399ff;
+    padding: 20px;
+  }

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+	<div class="a"> 
+		<body>
+			<h2> The Memo Organizer </h2>
+		<div class="b">
+			{{#if user}}
+				<h3> <a href="/"> Home</a> <a href="/song/add"> Add Song</a><a href="/searchMp3"> Search an MP3</a><a href="/searchPost"> Search a Post Title</a><a href="/logout"> Logout</a><a href="/users"> See Users</a></h3>
+				<h4 class="user">Logged in as: {{user.username}} </h4>
+			{{else}}
+				<h3> <a href="/login"> Login</a><a href="/searchMp3"> Search an MP3</a><a href="/searchPost"> Search a Post Title</a> <a href="/register"> Register</a> <a href="/"> Home</a><a href="/users"> See Users</a></h3>
+			{{/if}}
+		</div>
+	</div>
+		{{{body}}}
+	</body>
+
+</html>
